@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "VidClip",
+    "version": "1.0",
+  
+    "description": "Generates a yt-dlp command to clip a video using timestamps.",
+  
+    "icons": {
+      "48": "icons/vidclip-48.svg"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*", "*://*.twitch.tv/*"],
+        "js": ["vidclip.js"],
+        "css" : ["vidclip.css"]
+      }
+    ],
+
+    "web_accessible_resources": [
+      "icons/vidclip-icon.svg",
+      "icons/vidclip-start.svg",
+      "icons/vidclip-stop.svg",
+      "icons/vidclip-play.svg",
+      "icons/vidclip-clip.svg"
+    ]
+  }
+  
