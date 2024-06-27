@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "VidClip",
-    "version": "1.0",
+    "version": "0.1",
   
     "description": "Generates a yt-dlp command to clip a video using timestamps.",
   
@@ -23,6 +23,13 @@
       "icons/vidclip-stop.svg",
       "icons/vidclip-play.svg",
       "icons/vidclip-clip.svg"
-    ]
+    ],
+
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "vidclip@tempusware.com",
+        "update_url": "https://tempusware.com/files/addons/vidclip/updates.json"
+      }
+    }
   }
   

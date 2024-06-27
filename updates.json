@@ -1,0 +1,12 @@
+{
+    "addons": {
+      "{8f0d6035-55e3-418b-b2c7-a0ae79bf81ba}": {
+        "updates": [
+          {
+            "version": "0.1",
+            "update_link": "https://tempusware.com/files/addons/vidclip/releases/vidclip-01.xpi"
+          }
+        ]
+      }
+    }
+  }
